@@ -1,0 +1,26 @@
+{
+  "name": "voiceapienqueuedequeue",
+  "version": "1.0.0",
+  "description": "Voice API Queueing and Dequeueuing App",
+  "main": "server.js",
+  "author": "@TheBeachmaster",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "HOSTNAME=https://someone.ngrok.io REDIS_CONN_STRING=redis://127.0.0.1:6379/0 PORT=40000 nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "africastalking": "^0.4.5",
+    "bull": "^3.13.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "pino": "^6.0.0",
+    "pino-pretty": "^3.6.1",
+    "redis": "^3.0.2",
+    "xmlbuilder": "^15.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.2"
+  }
+}
