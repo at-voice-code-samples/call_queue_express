@@ -18,7 +18,7 @@ dequeueHandler.post('/', async (req, res, next) => {
     };
 
     callResponse = xmlBuilder
-    .create(redirectResponse, { encoding: "utf-8" })
+    .create(callResponse, { encoding: "utf-8" })
     .end({ pretty: true });
     res.status(200).send(callResponse);
 });
