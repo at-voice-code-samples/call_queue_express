@@ -12,7 +12,7 @@
   "dependencies": {
     "africastalking": "^0.4.5",
     "bull": "^3.13.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-formidable": "^1.2.0",
     "pino": "^6.0.0",
     "pino-pretty": "^3.6.1",
